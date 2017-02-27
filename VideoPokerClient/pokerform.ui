@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PokerForm</class>
+ <widget class="QWidget" name="PokerForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1412</width>
+    <height>766</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1412</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/images/cards/poker-table-background.png);</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>250</y>
+     <width>1331</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>20</y>
+      <width>1289</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QPushButton" name="card1image">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>363</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgba(255, 255, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/cards/Box_Back.png</normaloff>:/cards/Box_Back.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="autoRepeat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="card2image">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>363</height>
+          </size>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgba(255, 255, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/cards/Box_Back.png</normaloff>:/cards/Box_Back.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>200</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="card3image">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>363</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgba(255, 255, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/cards/Box_Back.png</normaloff>:/cards/Box_Back.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>200</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="card4image">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>363</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgba(255, 255, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/cards/Box_Back.png</normaloff>:/cards/Box_Back.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>200</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="card5image">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>363</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgba(255, 255, 255, 0);
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/cards/Box_Back.png</normaloff>:/cards/Box_Back.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>200</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>1341</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: rgba(255, 255, 255, 0);
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>40</y>
+      <width>191</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/cards/gold_frame.png);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="betLabel">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>0</y>
+       <width>101</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monotype Corsiva</family>
+       <pointsize>38</pointsize>
+       <weight>50</weight>
+       <italic>true</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: rgba(255, 255, 255, 0);
+font: italic 38pt &quot;Monotype Corsiva&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Monotype Corsiva'; font-size:38pt; font-weight:400; font-style:italic;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Bet&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="betValue">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>70</y>
+       <width>101</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>50</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: rgba(255, 255, 255, 0);
+border-image: url(:/images/cards/play_gold.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="spinButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>120</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/cards/grey-button.png);
+
+font: 75 14pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>SPIN</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>40</y>
+      <width>231</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/cards/gold_frame.png);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="moneyLabel">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>0</y>
+       <width>171</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monotype Corsiva</family>
+       <pointsize>38</pointsize>
+       <weight>50</weight>
+       <italic>true</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: rgba(255, 255, 255, 0);
+font: italic 38pt &quot;Monotype Corsiva&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Monotype Corsiva'; font-size:38pt; font-weight:400; font-style:italic;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Money&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="moneyAmount">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::DefaultContextMenu</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="numDigits">
+      <number>4</number>
+     </property>
+     <property name="digitCount">
+      <number>4</number>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Filled</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>0</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="playerLabel">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>40</y>
+      <width>621</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monotype Corsiva</family>
+      <pointsize>38</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(255, 255, 255, 0);
+font: italic 38pt &quot;Monotype Corsiva&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Monotype Corsiva'; font-size:38pt; font-weight:400; font-style:italic;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:30pt; font-weight:600; font-style:normal; color:#ffffff;&quot;&gt;Player&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="winningMessage">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>471</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monotype Corsiva</family>
+      <pointsize>38</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgba(255, 255, 255, 0);
+font: italic 38pt &quot;Monotype Corsiva&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
